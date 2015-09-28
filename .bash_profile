@@ -17,3 +17,17 @@ export LESS_TERMCAP_se=$'\E[0m'
 export LESS_TERMCAP_so=$'\E[01;44;33m'
 export LESS_TERMCAP_ue=$'\E[0m'
 export LESS_TERMCAP_us=$'\E[01;32m'
+
+# Quicker navigation
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+
+# Git
+# You must install Git first
+alias gs='git status'
+alias ga='git add .'
+alias gc='git commit -m' # requires you to type a commit message
+alias gp='git push'
+alias gcl='git clone'
